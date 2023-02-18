@@ -1,0 +1,82 @@
+[
+  {
+    "id": 634205,
+    "maker": "Toyota",
+    "model": "Corolla",
+    "year": 2019,
+    "color": "red",
+    "ownerId": 758934
+  },
+  {
+    "id": 284159,
+    "maker": "Honda",
+    "model": "Civic",
+    "year": 2020,
+    "color": "blue",
+    "ownerId": 681942
+  },
+  {
+    "id": 569273,
+    "maker": "Ford",
+    "model": "Mustang",
+    "year": 2018,
+    "color": "black",
+    "ownerId": 902567
+  },
+  {
+    "id": 498374,
+    "maker": "Chevrolet",
+    "model": "Impala",
+    "year": 2017,
+    "color": "white",
+    "ownerId": 380529
+  },
+  {
+    "id": 752183,
+    "maker": "Tesla",
+    "model": "Model S",
+    "year": 2021,
+    "color": "silver",
+    "ownerId": 231697
+  },
+  {
+    "id": 312456,
+    "maker": "BMW",
+    "model": "X5",
+    "year": 2022,
+    "color": "gray",
+    "ownerId": 918240
+  },
+  {
+    "id": 834092,
+    "maker": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2016,
+    "color": "black",
+    "ownerId": 781493
+  },
+  {
+    "id": 215874,
+    "maker": "Audi",
+    "model": "A3",
+    "year": 2020,
+    "color": "white",
+    "ownerId": 502619
+  },
+  {
+    "id": 764231,
+    "maker": "Nissan",
+    "model": "Altima",
+    "year": 2019,
+    "color": "blue",
+    "ownerId": 697812
+  },
+  {
+    "id": 527461,
+    "maker": "Mazda",
+    "model": "CX-5",
+    "year": 2021,
+    "color": "red",
+    "ownerId": 145327
+  }
+]

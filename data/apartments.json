@@ -1,0 +1,112 @@
+[
+  {
+    "id": 298175,
+    "address": "123 Main St",
+    "city": "New York",
+    "state": "NY",
+    "zipcode": "10001",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "rent": 2000,
+    "ownerId": 758934
+  },
+  {
+    "id": 702816,
+    "address": "456 Elm St",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipcode": "90001",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "rent": 1500,
+    "ownerId": 681942
+  },
+  {
+    "id": 945123,
+    "address": "789 Oak St",
+    "city": "Chicago",
+    "state": "IL",
+    "zipcode": "60601",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "rent": 2500,
+    "ownerId": 902567
+  },
+  {
+    "id": 372189,
+    "address": "321 Maple St",
+    "city": "San Francisco",
+    "state": "CA",
+    "zipcode": "94101",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "rent": 1800,
+    "ownerId": 380529
+  },
+  {
+    "id": 819456,
+    "address": "567 Pine St",
+    "city": "Seattle",
+    "state": "WA",
+    "zipcode": "98101",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "rent": 2200,
+    "ownerId": 231697
+  },
+  {
+    "id": 135790,
+    "address": "246 Oak St",
+    "city": "Miami",
+    "state": "FL",
+    "zipcode": "33101",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "rent": 1600,
+    "ownerId": 918240
+  },
+  {
+    "id": 264735,
+    "address": "369 Cherry St",
+    "city": "Atlanta",
+    "state": "GA",
+    "zipcode": "30301",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "rent": 2700,
+    "ownerId": 781493
+  },
+  {
+    "id": 583921,
+    "address": "802 Walnut St",
+    "city": "Austin",
+    "state": "TX",
+    "zipcode": "78701",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "rent": 1900,
+    "ownerId": 502619
+  },
+  {
+    "id": 907234,
+    "address": "567 Park Ave",
+    "city": "Boston",
+    "state": "MA",
+    "zipcode": "02108",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "rent": 1700,
+    "ownerId": 697812
+  },
+  {
+    "id": 456321,
+    "address": "1010 Market St",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zipcode": "19107",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "rent": 2200,
+    "ownerId": 847512
+  }
+]
