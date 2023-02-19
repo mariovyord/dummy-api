@@ -7,12 +7,14 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 )
 
 func main() {
 	http.HandleFunc("/", handleRoot)
 	http.HandleFunc("/users", handleUsers)
+	http.HandleFunc("/users/id/", handleSingleUser)
 	http.HandleFunc("/cars", handleCars)
 	http.HandleFunc("/apartments", handleApartments)
 
@@ -32,7 +34,7 @@ func handleRoot(w http.ResponseWriter, _ *http.Request) {
 	io.WriteString(w, str)
 }
 
-func handleUsers(w http.ResponseWriter, _ *http.Request) {
+func handleUsers(w http.ResponseWriter, r *http.Request) {
 	file, err := os.Open("./data/users.json")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -47,6 +49,30 @@ func handleUsers(w http.ResponseWriter, _ *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(users)
+}
+
+func handleSingleUser(w http.ResponseWriter, r *http.Request) {
+	file, err := os.Open("./data/users.json")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+	defer file.Close()
+
+	var users []User
+	err = json.NewDecoder(file).Decode(&users)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+
+	id, err := strconv.Atoi(r.URL.Path[len("/users/id/"):])
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+
+	user := users[id]
+
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(user)
 }
 
 func handleCars(w http.ResponseWriter, _ *http.Request) {

@@ -1,6 +1,6 @@
 [
   {
-    "id": 298175,
+    "id": 1,
     "address": "123 Main St",
     "city": "New York",
     "state": "NY",
@@ -11,7 +11,7 @@
     "ownerId": 758934
   },
   {
-    "id": 702816,
+    "id": 2,
     "address": "456 Elm St",
     "city": "Los Angeles",
     "state": "CA",
@@ -22,7 +22,7 @@
     "ownerId": 681942
   },
   {
-    "id": 945123,
+    "id": 3,
     "address": "789 Oak St",
     "city": "Chicago",
     "state": "IL",
@@ -33,7 +33,7 @@
     "ownerId": 902567
   },
   {
-    "id": 372189,
+    "id": 4,
     "address": "321 Maple St",
     "city": "San Francisco",
     "state": "CA",
@@ -44,7 +44,7 @@
     "ownerId": 380529
   },
   {
-    "id": 819456,
+    "id": 5,
     "address": "567 Pine St",
     "city": "Seattle",
     "state": "WA",
@@ -55,7 +55,7 @@
     "ownerId": 231697
   },
   {
-    "id": 135790,
+    "id": 6,
     "address": "246 Oak St",
     "city": "Miami",
     "state": "FL",
@@ -66,7 +66,7 @@
     "ownerId": 918240
   },
   {
-    "id": 264735,
+    "id": 7,
     "address": "369 Cherry St",
     "city": "Atlanta",
     "state": "GA",
@@ -77,7 +77,7 @@
     "ownerId": 781493
   },
   {
-    "id": 583921,
+    "id": 8,
     "address": "802 Walnut St",
     "city": "Austin",
     "state": "TX",
@@ -88,7 +88,7 @@
     "ownerId": 502619
   },
   {
-    "id": 907234,
+    "id": 9,
     "address": "567 Park Ave",
     "city": "Boston",
     "state": "MA",
@@ -99,7 +99,7 @@
     "ownerId": 697812
   },
   {
-    "id": 456321,
+    "id": 10,
     "address": "1010 Market St",
     "city": "Philadelphia",
     "state": "PA",
